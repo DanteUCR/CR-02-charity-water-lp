@@ -1,47 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charity: Water</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&family=Avenir:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+  <header class="hero">
+    <div class="container">
+      <div class="logo">
+        <!-- Logo image for strong branding -->
+        <img src="img/cw_logo.png" alt="Charity: Water Logo" style="height: 60px; vertical-align: middle;">
+        Charity: Water
+      </div>
+      <h1 class="headline">Drop $10, Start a Clean-Water Revolution</h1>
+      <p class="hero-message">Together, we can end the water crisis. <span style="color: #00ADEF; font-weight: bold;">100% of your donation</span> brings clean water to families in need. <br>Be the reason a child drinks clean water today.</p>
+      <a href="#" class="cta-button cta-hero">
+        <span class="droplet d1"></span>
+        <span class="droplet d2"></span>
+        <span class="droplet d3"></span>
+        DONATE $10 NOW
+      </a>
+      <!-- Hero image showing children at a water pump -->
+      <img src="https://d35lvrk9fb4ftj.cloudfront.net/eyJidWNrZXQiOiJkcm9wbWFyayIsImtleSI6IjUyMDQzLzhiNDVkNWVhMjA0MjBiMmE0MDIyOTQ0OGJmYjNkYjY2NGQ3MDcxMTYyYTI0NmUyZTkwYWQ1NDNiOWVkNjc1MWUvY3dfU2VsZWN0c180eDVfMzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDAsImhlaWdodCI6NjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=" alt="Children at water pump" class="hero-image">
+      <!-- The image above shows children at a water pump -->
+    </div>
+  </header>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+  <section class="story">
+    <div class="story-content">
+      <h2>Water Changes Everything</h2>
+      <p>
+        Charity: Water is on a mission to bring clean and safe drinking water to people in need around the world. Every day, millions of people walk miles just to collect water for their families. Thanks to supporters like you, Charity: Water has funded thousands of water projects, providing hope, health, and opportunity to entire communities. Clean water means more time for school, better health, and brighter futures.
+      </p>
+      <video class="story-video" controls poster="https://d35lvrk9fb4ftj.cloudfront.net/eyJidWNrZXQiOiJkcm9wbWFyayIsImtleSI6IjUyMDQzLzhiNDVkNWVhMjA0MjBiMmE0MDIyOTQ0OGJmYjNkYjY2NGQ3MDcxMTYyYTI0NmUyZTkwYWQ1NDNiOWVkNjc1MWUvY3dfU2VsZWN0c180eDVfMzAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDAsImhlaWdodCI6NjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5zYXJnZW1lbnQiOnRydWV9fX0=">
+        <source src="https://cdn2.dropmarkusercontent.com/52043/f4e0cafdd40b19c2b803cdc9c61206bc1f73d8e4c9d55d83a35f1e3c5c5e3d2d/Water%20Changes%20Everything.mp4?Expires=1751619607&Signature=WamIGBDbLTvoiOXlvf-AfX33snvzALytkp8W6LE3LKteVf6lRm8R~3cbeckrfy2ziFoIPuZFoh2Ah5muIsPYYSvd1HfL0JnFxguwEwKLiTem6fRGrJ~~UCJqqXl-Vx6DqLblM-4uxGsZ4NdjsQ8LqvXgErVnC8JvOdo~ljfYNNNjlwa6pVcQU~B1U-Af5vdh1bt-Y4N-85~tT~sfmtLGuLTETyOrYF-AK5Qrv5H0Il7GI3F0b-Yfjo7W9xbxHm1WqFgjLK5LCzOejkWaeLqQUSDV~w8tWNTwlc4QtkauKnQ1AZNyxTzAfWaHJ3iMpxpAvzsukIsF2P5DnlTHM4hRng__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+  <div class="section-divider"></div>
+  <section class="counter-section">
+    <div class="counter" id="people-helped">0</div>
+    <div class="counter-label">People Helped</div>
+    <div class="counter" id="projects-funded">0</div>
+    <div class="counter-label">Projects Funded</div>
+  </section>
+  <div class="section-divider"></div>
+  <section class="testimonial">
+    "Thanks to Charity: Water, my children no longer have to walk for hours to collect water. Now they can go to school and dream big!"
+    <br><br>
+    <span style="font-style:normal; font-weight:bold; color:#00ADEF;">— Amina, Ethiopia</span>
+  </section>
+  <div class="section-divider"></div>
+
+  <section class="features">
+    <div class="feature">
+      <!-- Magnifying glass icon for 100% Model -->
+      <img src="https://images.vexels.com/media/users/3/143356/isolated/preview/64e14fe0195557e3f18ea3becba3169b-search-magnifying-glass.png" alt="Magnifying Glass Icon" style="height: 48px; display: block; margin: 0 auto 10px;">
+      <h3>100% Model <span class="badge">100% Impact</span></h3>
+      <p>Every dollar you give <span style="color: #00ADEF; font-weight: bold;">funds clean-water projects directly</span>. No overhead. Just impact.</p>
+    </div>
+    <div class="feature">
+      <!-- Mobile phone icon for Real Time Updates -->
+      <img src="https://img.favpng.com/4/21/25/ringing-telephone-call-smartphone-iphone-png-favpng-Sz93fSZ3ACHM9mQHJARm3W0gn.jpg" alt="Mobile Phone Icon" style="height: 48px; display: block; margin: 0 auto 10px;">
+      <h3>Real Time Updates</h3>
+      <p>See your impact! Get <span style="color: #00ADEF; font-weight: bold;">mobile updates and photos</span> from the field.</p>
+    </div>
+    <div class="feature">
+      <!-- House icon for Empower Communities -->
+      <img src="https://png.pngtree.com/png-vector/20221206/ourmid/pngtree-city-skyline-silhouette-png-image_6513688.png" alt="Community Houses Icon" style="height: 48px; display: block; margin: 0 auto 10px;">
+      <h3>Empower Communities</h3>
+      <p>Support <span style="color: #00ADEF; font-weight: bold;">local leaders</span> who build sustainable water solutions for their people.</p>
+    </div>
+  </section>
+  <div class="wave-divider">
+    <svg width="100%" height="48" viewBox="0 0 1200 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0C150 48 350 48 600 0C850 -48 1050 -48 1200 0V48H0V0Z" fill="#a7d8f5"/></svg>
+  </div>
+  <section class="movement">
+    <h2>Millions of Lives Changed</h2>
+    <p class="movement-message">You can be part of a global movement. <span style="color: #00ADEF; font-weight: bold;">Join changemakers</span> who believe everyone deserves clean water. <br>Every drop counts. Every dollar matters.</p>
+    <a href="#" class="cta-button cta-movement">JOIN THE MOVEMENT</a>
+    <!-- Optional: Add a second bold image for more visual impact -->
+    <img src="img/water-can-transparent.png" alt="Water Can" style="display: block; margin: 30px auto 0; max-width: 180px;">
+  </section>
+
+  <div id="donate-popup" class="popup-overlay" style="display: none;">
+    <div class="popup-content">
+      <span class="close-popup" id="close-popup">&times;</span>
+      <h2>Donate</h2>
+      <form class="donate-form">
+        <label for="amount">Donation Amount ($):</label>
+        <input type="number" id="amount" name="amount" min="1" value="10" required>
+        <label for="name">Name on Card:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="card">Card Number:</label>
+        <input type="text" id="card" name="card" maxlength="19" required placeholder="1234 5678 9012 3456">
+        <div class="form-row">
+          <div>
+            <label for="exp">Expiry:</label>
+            <input type="text" id="exp" name="exp" maxlength="5" required placeholder="MM/YY">
+          </div>
+          <div>
+            <label for="cvc">CVC:</label>
+            <input type="text" id="cvc" name="cvc" maxlength="4" required placeholder="123">
+          </div>
         </div>
-    </section>
+        <label class="leaderboard-label">
+          <input type="checkbox" id="leaderboard" name="leaderboard">
+          Include me in the public leaderboard of donors
+        </label>
+        <button type="submit" class="cta-button">
+          <span class="droplet d1"></span>
+          <span class="droplet d2"></span>
+          <span class="droplet d3"></span>
+          Donate Now
+        </button>
+      </form>
+      <div id="thank-you-message" style="display:none; text-align:center; margin-top:18px; color:#174873; font-weight:bold; font-size:1.1rem;">
+        Thank you for your generous donation and support!
+      </div>
+    </div>
+  </div>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+  <div id="movement-popup" class="popup-overlay" style="display: none;">
+    <div class="popup-content">
+      <span class="close-popup" id="close-movement-popup">&times;</span>
+      <h2>Join the Movement</h2>
+      <form class="movement-form">
+        <label for="movement-email">Enter your email to get updates on communities and their wellbeing:</label>
+        <input type="email" id="movement-email" name="movement-email" required placeholder="you@email.com">
+        <button type="submit" class="cta-button">
+          <span class="droplet d1"></span>
+          <span class="droplet d2"></span>
+          <span class="droplet d3"></span>
+          Sign Up
+        </button>
+      </form>
+      <div id="movement-thank-you" style="display:none; text-align:center; margin-top:18px; color:#174873; font-weight:bold; font-size:1.1rem;">
+        Thank you for joining the movement! We'll keep you updated.
+      </div>
+      <div class="donate-prompt" style="margin-top:22px; font-size:0.98rem; color:#174873; text-align:center;">
+        Want to make an even bigger impact? <br>
+        <a href="#" class="cta-button cta-hero" style="margin-top:10px;">
+          <span class="droplet d1"></span>
+          <span class="droplet d2"></span>
+          <span class="droplet d3"></span>
+          Donate Now
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="wip-popup" class="popup-overlay" style="display: none;">
+    <div class="popup-content" style="text-align:center; max-width:340px;">
+      <span class="close-popup" id="close-wip-popup">&times;</span>
+      <h2 style="color:#00ADEF; margin-bottom:10px;">Work in Progress</h2>
+      <p style="color:#174873; font-size:1.1rem; margin-bottom:18px;">This page is still being built.<br>Thank you for your patience!</p>
+      <div style="font-size:2rem; color:#FFDC3B;">&#128736;</div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-social">
+      <a href="#" title="Twitter" aria-label="Twitter"><span style="font-family:Arial,sans-serif;">&#128081;</span></a>
+      <a href="#" title="Facebook" aria-label="Facebook"><span style="font-family:Arial,sans-serif;">&#128100;</span></a>
+      <a href="#" title="Instagram" aria-label="Instagram"><span style="font-family:Arial,sans-serif;">&#128247;</span></a>
+    </div>
+    <p>© 2025 Charity: water | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a></p>
+  </footer>
+
+  <script>
+    // Show popup when donate button is clicked
+    document.querySelectorAll('.cta-button.cta-hero').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.getElementById('donate-popup').style.display = 'flex';
+      });
+    });
+    // Close popup
+    document.getElementById('close-popup').onclick = function() {
+      document.getElementById('donate-popup').style.display = 'none';
+    };
+    // Optional: Close popup when clicking outside the content
+    document.getElementById('donate-popup').onclick = function(e) {
+      if (e.target === this) this.style.display = 'none';
+    };
+    // Prevent form submission (for demo)
+    document.querySelector('.donate-form').onsubmit = function(e) {
+      e.preventDefault();
+      document.querySelector('.donate-form').style.display = 'none';
+      document.getElementById('thank-you-message').style.display = 'block';
+      setTimeout(function() {
+        document.getElementById('donate-popup').style.display = 'none';
+        document.querySelector('.donate-form').style.display = 'block';
+        document.getElementById('thank-you-message').style.display = 'none';
+      }, 2500);
+    };
+
+    // Show popup when join the movement button is clicked
+    document.querySelectorAll('.cta-button.cta-movement').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.getElementById('movement-popup').style.display = 'flex';
+      });
+    });
+    // Close movement popup
+    document.getElementById('close-movement-popup').onclick = function() {
+      document.getElementById('movement-popup').style.display = 'none';
+    };
+    // Optional: Close movement popup when clicking outside the content
+    document.getElementById('movement-popup').onclick = function(e) {
+      if (e.target === this) this.style.display = 'none';
+    };
+    // Prevent movement form submission (for demo)
+    document.querySelector('.movement-form').onsubmit = function(e) {
+      e.preventDefault();
+      document.querySelector('.movement-form').style.display = 'none';
+      document.getElementById('movement-thank-you').style.display = 'block';
+      setTimeout(function() {
+        document.getElementById('movement-popup').style.display = 'none';
+        document.querySelector('.movement-form').style.display = 'block';
+        document.getElementById('movement-thank-you').style.display = 'none';
+      }, 2500);
+    };
+
+    // Show WIP popup for Privacy Policy and Contact Us
+    document.querySelectorAll('footer a').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.getElementById('wip-popup').style.display = 'flex';
+      });
+    });
+    document.getElementById('close-wip-popup').onclick = function() {
+      document.getElementById('wip-popup').style.display = 'none';
+    };
+    document.getElementById('wip-popup').onclick = function(e) {
+      if (e.target === this) this.style.display = 'none';
+    };
+
+    // Animated counter for people helped and projects funded
+    function animateCounter(id, end, duration) {
+      var el = document.getElementById(id);
+      var start = 0;
+      var range = end - start;
+      var stepTime = Math.abs(Math.floor(duration / range));
+      var current = start;
+      var timer = setInterval(function() {
+        current += 1;
+        el.textContent = current.toLocaleString();
+        if (current >= end) clearInterval(timer);
+      }, stepTime);
+    }
+    animateCounter('people-helped', 12000, 1800);
+    animateCounter('projects-funded', 1800, 1800);
+  </script>
 </body>
+
 </html>
